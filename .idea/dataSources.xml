@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="idea_web@localhost" uuid="33b72e35-787a-4013-b2c0-7f2da6162f20">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/idea_web</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="medical_db@localhost" uuid="32140fe5-90cc-467a-a6c6-17e7809215ec">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/medical_db</jdbc-url>
+    </data-source>
+  </component>
+</project>
