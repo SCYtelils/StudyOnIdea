@@ -27,10 +27,13 @@ class Account{
     }
 }
 
-//储户（线程）
+/**
+ * 线程类
+ */
 class Customer implements Runnable{
 
     private Account acct;
+
     //初始化数据
     public Customer(Account acct){
         this.acct = acct;
