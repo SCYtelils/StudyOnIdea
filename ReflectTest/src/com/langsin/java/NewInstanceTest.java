@@ -1,6 +1,5 @@
-package com.langsin;
+package com.langsin.java;
 
-import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.Test;
 
 /**

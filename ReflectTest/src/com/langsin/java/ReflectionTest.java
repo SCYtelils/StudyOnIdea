@@ -1,6 +1,5 @@
-package com.langsin;
+package com.langsin.java;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Constructor;
@@ -85,11 +84,11 @@ public class ReflectionTest {
         Class clazz2 = p1.getClass();
         System.out.println(p1);
         //方法三：调用Class的静态方法：forName(String classPath)
-        Class clazz3 = Class.forName("com.langsin.Person");
+        Class clazz3 = Class.forName("com.langsin.java.Person");
         System.out.println(clazz3);
         //方法四：使用类加载器：ClassLoader
         ClassLoader classLoader = ReentrantLock.class.getClassLoader();
-        Class clazz4 = classLoader.loadClass("com.langsin.Person");
+        Class clazz4 = classLoader.loadClass("com.langsin.java.Person");
         System.out.println(clazz4);
 
         //结果为true，都是同一个对象

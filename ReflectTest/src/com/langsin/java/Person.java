@@ -1,4 +1,4 @@
-package com.langsin;
+package com.langsin.java;
 
 /**
  * @author 🏹☂࿈秋鹜࿈🏹️
@@ -6,8 +6,17 @@ package com.langsin;
  */
 public class Person {
 
-    private String name;
+    private  String name;
     public int age;
+    public int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public Person(String name, int age) {
         this.name = name;
@@ -42,8 +51,12 @@ public class Person {
         System.out.println("你好，我是一个人。");
     }
 
-    public String showName(){
+    public String showName(String name){
         System.out.println("我的名字是：" + name);
         return name;
+    }
+
+    private static void showDesc(){
+        System.out.println("我是一个可爱的人");
     }
 }
