@@ -1,0 +1,4 @@
+1.写出获取Class实例的三种常见方式
+Class clazz1 = String.class;
+Class clazz2 = person.getClass();
+Class clazz3 = Class.forName(String classPath);//体现反射的动态性
