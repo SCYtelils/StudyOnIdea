@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+
+    <style>
+        .blank {
+            width: 100%;
+            height: 20%;
+        }
+        .card {
+            background-color: #f1f1f1;
+            width: 60%;
+            border-radius: 5px;
+            text-align: center;
+            margin-left: 20%;
+        }
+        .container {
+            padding: 2px 16px;
+        }
+        .form {
+            text-align: center;
+        }
+        input[type=text] {
+            width: 50%;
+            padding: 6px 5px;
+            margin: 6px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .button {
+            background-color: #AD3F;
+            border-radius: 4px;
+            text-align: center;
+            padding: 6px 40%;
+            border:none;
+        }
+        .button:hover {
+            transition: 0.5s;
+            background-color: forestgreen;
+            text-align: center;
+            padding: 6px 40%;
+            border:none;
+        }
+    </style>
+</head>
+<body>
+<div class="blank">
+    <br><br>
+</div>
+<div class="card">
+    <div class="container">
+        <h3><b>登录注册</b></h3>
+        <div class="form">
+            <form>
+                <div class="form-group">
+                    <label for="user">用户名：</label>
+                    <input type="text" id="user" placeholder="请输入用户名" required>
+                </div>
+
+                <label for="password">密&nbsp;&nbsp;&nbsp;码：</label>
+                <input type="text" id="password" placeholder="请输入密码" required>
+                <br><br>
+                <input class="button" type="submit" value="登录">
+                <br><br>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -12,7 +12,6 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author 🏹☂࿈秋鹜࿈🏹️
  * @create 2020/3/9 12:28
  */
-@SuppressWarnings("ALL")
 public class ReflectionTest {
 
     /**
@@ -104,7 +103,7 @@ public class ReflectionTest {
 
         Properties pros = new Properties();
 
-        //读取配置文件方式一：
+        //读取配置文件方式一：IO+Properties
 //        FileInputStream fis = new FileInputStream("ReflectTest/jdbc.properties");
 //        pros.load(fis);
 

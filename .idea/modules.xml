@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DynamicProxy/DynamicProxy.iml" filepath="$PROJECT_DIR$/DynamicProxy/DynamicProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO/IO.iml" filepath="$PROJECT_DIR$/IO/IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaWeb01/JavaWeb01.iml" filepath="$PROJECT_DIR$/JavaWeb01/JavaWeb01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice.iml" filepath="$PROJECT_DIR$/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReflectTest/ReflectTest.iml" filepath="$PROJECT_DIR$/ReflectTest/ReflectTest.iml" />
