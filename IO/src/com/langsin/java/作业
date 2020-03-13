@@ -1,0 +1,32 @@
+//The recursive merge sort
+void Merge (int a[], int b[], int low, int mid, int high){
+      int i=low;
+      int j=mid+1;
+      int k=low;
+      while(i<=mid && j<=high)
+      {
+            if(a[i]<a[j])
+                 b[k++]=a[i++];
+            else
+                 b[k++]=a[j++];
+      }
+      if(i>mid)
+            for(int z=j;z<=high;z++)
+                 b[k++]=a[z];
+      else
+            for(int z=i;i<=mid;i++)
+                 b[k++]=a[z];
+
+}
+void sort(int a[], int n){
+	MergeSort(a, 0, n-1 )
+}
+void MergeSort (int a[], int low, int high){
+	if(low>high){}
+	else{
+		mid = (low+high)/2;
+		MergeSort (a,  low, mid);
+		MergeSort (a,  mid+1, high);
+		Merge(a, b, low, mid, high);
+	}
+}
