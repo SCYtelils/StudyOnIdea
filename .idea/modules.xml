@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Datebase/Datebase.iml" filepath="$PROJECT_DIR$/Datebase/Datebase.iml" />
       <module fileurl="file://$PROJECT_DIR$/DynamicProxy/DynamicProxy.iml" filepath="$PROJECT_DIR$/DynamicProxy/DynamicProxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/IO/IO.iml" filepath="$PROJECT_DIR$/IO/IO.iml" />
